@@ -7,6 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+  /* Color Theme Swatches in Hex */
+--primaryColor : #041E40;
+--backgroundColor : #051326;
+--blueLight : #79AEF2;
+--yellow : #736626;
+--gray : #A6A6A6;
+--black: #1E1E1E;
+--white: #FFFFFF;
+
+/* Color Theme Swatches in RGBA
+.LACOURTE-RAQUIN-TATAR-1-rgba { color: rgba(3, 29, 63, 1); }
+.LACOURTE-RAQUIN-TATAR-2-rgba { color: rgba(4, 19, 38, 1); }
+.LACOURTE-RAQUIN-TATAR-3-rgba { color: rgba(121, 173, 242, 1); }
+.LACOURTE-RAQUIN-TATAR-4-rgba { color: rgba(114, 101, 37, 1); }
+.LACOURTE-RAQUIN-TATAR-5-rgba { color: rgba(165, 165, 165, 1); } */
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

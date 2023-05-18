@@ -1,0 +1,17 @@
+.navBarItem{
+    color: var(--gray);
+    text-decoration: none;
+    width: 20%;
+    transition: color ease 400ms;
+    text-align: center;
+}
+
+.navBarItem:hover{
+    color: var(--blueLight);
+}
+
+@media (max-width: 768px) {
+    .navBarItem{
+        margin: 0;
+    }
+}
